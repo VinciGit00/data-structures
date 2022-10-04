@@ -1,0 +1,31 @@
+package Objects;
+
+
+//Only student's status information
+public class Student implements Comparable<Student> {
+
+	String Name;
+	String Surname;
+	String University;
+	String Birthday;
+	int Code;
+	boolean Exchange;
+	
+	
+	public Student(String Name, String Surname, String University, String Birthday, int code, boolean exchange) {
+		this.Name = Name;
+		this.Surname = Surname;
+		this.University = University;
+		this.Birthday = Birthday;
+		this.Code = Code;
+	}
+public boolean Equals(Object o) {
+	return false;
+}
+
+	@Override
+	public int compareTo(Student o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+}

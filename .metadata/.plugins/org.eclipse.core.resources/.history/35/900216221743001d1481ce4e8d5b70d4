@@ -1,0 +1,20 @@
+package Objects;
+
+public class Person {
+	String title;
+	String fullName;
+	int age;
+
+	public Person(String title, String fullName, int age) {
+		this.title = title;
+		this.fullName = fullName;
+		this.age = age;
+	}
+	
+	public boolean equals(Object obj) {
+		if (this == obj) return true;
+		if(!(obj instanceof Person)) return false;
+		Person temp = (Person) obj;
+		return title.equals(temp.title) && title.equals(temp.title) && age == temp.age;
+	}
+}

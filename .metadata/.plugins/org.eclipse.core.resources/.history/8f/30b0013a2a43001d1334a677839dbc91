@@ -1,0 +1,10 @@
+package Es1;
+
+public class main {
+
+	public static void main(String[] args) {
+
+ArrayList <int> al = new ArrayList<int>();
+
+
+}

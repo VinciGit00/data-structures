@@ -1,0 +1,6 @@
+package Interfaces;
+
+public interface duplicati {
+	boolean verificaDup(LinkediList lista);
+
+}

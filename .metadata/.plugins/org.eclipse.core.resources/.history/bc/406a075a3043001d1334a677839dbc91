@@ -1,0 +1,24 @@
+package Es1;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+import Es2.DuplicatedObject;
+
+public class main {
+
+	public static void main(String[] args) {
+
+		ArrayList<Integer> al = new ArrayList<Integer>();
+		al.add(2);
+		al.add(3);
+		al.add(4);
+		al.add(5);
+		al.add(6);
+		al.add(7);
+
+		DuplicatedObject obj = new DuplicatedObject();
+		
+	
+	}
+}

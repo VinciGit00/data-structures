@@ -1,0 +1,18 @@
+package Es2;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.ListIterator;
+
+public interface duplicati {
+	<T> boolean verificaDupForLoop(T[] array);
+
+	<T> boolean verificaDupForLoopArrayList(ArrayList<T> arrayList);
+
+	<T> boolean verificaDupForLoopLinkedList(LinkedList<T> arrayList);
+
+	<T> boolean verificaDupIterator(ArrayList<T> arrayList);
+
+	<T> boolean verificaDupListIterator(ArrayList<T> arrayList);
+}
