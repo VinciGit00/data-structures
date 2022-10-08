@@ -19,7 +19,7 @@ public class Student implements Comparable<Student> {
 		this.Exchange = Exchange;
 	}
 
-	public boolean Equals(Object o) {
+	public boolean equals(Object o) {
 		if (this == o)
 			return true;
 		if (!(o instanceof Student))
@@ -33,11 +33,19 @@ public class Student implements Comparable<Student> {
 	public int compareTo(Student o) {
 		if (this.surname.compareTo(o.surname) > 0)
 			return +1;
-		else if (this.surname.compareTo(o.surname) < 0 )
+		else if (this.surname.compareTo(o.surname) < 0)
 			return -1;
-		else if  (this.surname.compareTo(o.surname) == 0 && this.name.compareTo(o.name) == 0 && this.birthday.compareTo(o.birthday)==0)
+		else if (this.surname.compareTo(o.surname) == 0 && this.name.compareTo(o.name) == 0
+				&& this.birthday.compareTo(o.birthday) == 0)
 			return 0;
-		else 
+		else
 			return 1;
 	}
+
+	public String toString() {
+		return "nome: " + this.name + ", cognome: " + this.surname + ", università: " + this.university + ", birthday: "
+				+ this.birthday + ", exchange? " + this.Exchange;
+
+	}
+
 }

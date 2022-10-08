@@ -13,7 +13,7 @@ public interface duplicati {
 	<T> boolean verificaDupForLoopArrayList(ArrayList<T> arrayList);
 
 	//Using linkedList
-	<T> boolean verificaDupForLoopLinkedList(LinkedList<T> arrayList);
+	<T> boolean verificaDupForLoopLinkedList(LinkedList<T> linkedList);
 
 	//Using Iterator
 	<T> boolean verificaDupIterator(ArrayList<T> arrayList);

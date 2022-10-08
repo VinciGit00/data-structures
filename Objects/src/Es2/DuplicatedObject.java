@@ -6,15 +6,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.ListIterator;
 
-/**
- * This is an exercise of data structures for the research of duplicates with
- * different data structures and generics
- * 
- * @author Marco Vinciguerra
- * @author Gabriele Marchesi
- *
- *
- */
+
 public class DuplicatedObject implements duplicati {
 
 	@Override

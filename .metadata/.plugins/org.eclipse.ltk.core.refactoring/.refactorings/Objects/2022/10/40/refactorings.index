@@ -1,3 +1,6 @@
 1664792941458	Move compilation unit
 1664804407573	Rename package 'Interfaces'
 1664806567168	Rename package 'Objects'
+1665172234660	Rename type 'Pila'
+1665172246696	Rename type 'PilaMethos'
+1665172265462	Rename type 'PilaMethods'

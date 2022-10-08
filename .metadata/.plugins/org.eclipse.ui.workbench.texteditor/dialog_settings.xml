@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="code"/>
+		<item key="selection" value="Vector"/>
 		<list key="findhistory">
+			<item value="ArrayList"/>
 			<item value="Code"/>
 			<item value="Birthday"/>
 			<item value="University"/>
@@ -15,6 +16,7 @@
 			<item value="Name"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Vector"/>
 			<item value="code"/>
 			<item value="birthday"/>
 			<item value="university"/>
