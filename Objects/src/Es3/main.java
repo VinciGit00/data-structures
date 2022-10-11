@@ -4,8 +4,11 @@ import java.util.Vector;
 
 /**
  * 
- * @author marco vinciguerra and Gabriele Marchesi This exercise create 2
- *         different examples of stack classes
+ * @author marco vinciguerra
+ * @author Gabriele Marchesi This exercise create 2 different examples of stack
+ *         classes
+ * 
+ * @year 2022-2023
  */
 public class main {
 

@@ -2,8 +2,9 @@ package Es1;
 
 /**
  * 
- * @author marco vinciguerra and Gabriele Marchesi Creation of the student class
- *         using interfaces
+ * @author Marco Vinciguerra
+ * @author Gabriele Marchesi Creation of the student class using interfaces
+ * @year 2022-2023
  */
 
 public class main {

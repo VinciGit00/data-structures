@@ -1,7 +1,0 @@
-package Objects;
-public class Student {
-
-	String Name;
-	String Surname;
-	String University;
-}
