@@ -1,13 +1,23 @@
 package bynary_research;
 
-/***
- * Algorithm for binary research in java
- * 
+// TODO: Auto-generated Javadoc
+/**
+ * * Algorithm for binary research in java.
+ *
  * @author marco vinciguerra
  * @year 2022-2023
  */
 public class bynart {
 
+	/**
+	 * Research.
+	 *
+	 * @param a      the array
+	 * @param target the number to search
+	 * @param sx     the sx index
+	 * @param dx     the dx index
+	 * @return true, if successful
+	 */
 	static boolean research(int[] a, int target, int sx, int dx) {
 		// Passo base
 		if (sx > dx)
@@ -26,6 +36,10 @@ public class bynart {
 		}
 	}
 
+	/**
+	 * The main method.
+	 *
+	 */
 	public static void main(String[] args) {
 		int[] array = { 1, 2, 3, 4, 6 };
 		int target = 5;

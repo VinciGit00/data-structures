@@ -1,8 +1,8 @@
-package Es2;
+package es2;
 
 import java.util.ArrayList;
 
-import Es1.Student;
+import es1.Student;
 
 /**
  * This is an exercise of data structures for the research of duplicates with

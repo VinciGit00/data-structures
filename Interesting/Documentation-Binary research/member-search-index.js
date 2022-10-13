@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"bynary_research","c":"bynart","l":"bynart()","u":"%3Cinit%3E()"},{"p":"bynary_research","c":"bynart","l":"main(String[])","u":"main(java.lang.String[])"},{"p":"bynary_research","c":"bynart","l":"research(int[], int, int, int)","u":"research(int[],int,int,int)"}];updateSearchResults();

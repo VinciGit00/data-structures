@@ -1,4 +1,4 @@
-package Es1;
+package es1;
 
 public class Person implements Comparable<Person> {
 	String title;

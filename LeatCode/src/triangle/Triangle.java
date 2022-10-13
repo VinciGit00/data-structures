@@ -1,4 +1,4 @@
-package Triangle;
+package triangle;
 
 public class Triangle {
 	static int largestPerimeter(int[] nums) {

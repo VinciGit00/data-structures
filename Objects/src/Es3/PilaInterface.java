@@ -1,4 +1,4 @@
-package Es3;
+package es3;
 
 public interface PilaInterface {
 

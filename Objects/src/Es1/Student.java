@@ -1,4 +1,4 @@
-package Es1;
+package es1;
 
 //Only student's status information
 public class Student implements Comparable<Student> {

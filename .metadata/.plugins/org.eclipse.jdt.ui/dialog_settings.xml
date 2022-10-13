@@ -37,4 +37,59 @@
 		<item key="updateSimilarElements" value="false"/>
 		<item key="updateSimilarElementsMatchStrategy" value="1"/>
 	</section>
+	<section name="javadoc">
+		<item key="javadoc_command_history" value="/Users/marcovinciguerra/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.4.v20220903-1038/jre/bin/javadoc"/>
+		<item key="fromStandard" value="true"/>
+		<item key="docletname" value=""/>
+		<item key="docletpath" value=""/>
+		<item key="access" value="private"/>
+		<item key="use" value="true"/>
+		<item key="author" value="true"/>
+		<item key="version" value="true"/>
+		<item key="nodeprecated" value="false"/>
+		<item key="nodeprecatedlist" value="false"/>
+		<item key="splitindex" value="true"/>
+		<item key="noindex" value="false"/>
+		<item key="notree" value="false"/>
+		<item key="nonavbar" value="false"/>
+		<item key="openinbrowser" value="false"/>
+		<item key="source" value="17"/>
+		<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Interesting/javadoc.xml"/>
+		<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Interesting"/>
+		<section name="projects">
+			<section name="Interesting">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Interesting"/>
+				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Interesting/javadoc.xml"/>
+			</section>
+			<section name="Objects">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Objects/doc"/>
+				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Objects/javadoc.xml"/>
+			</section>
+			<section name="LeatCode">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/LeatCode/doc"/>
+				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/LeatCode/javadoc.xml"/>
+			</section>
+			<section name="Pila">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Pila/doc"/>
+				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Pila/javadoc.xml"/>
+			</section>
+		</section>
+	</section>
+	<section name="FatJarPackageWizard">
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_SAVE" value="false"/>
+		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="/Users/marcovinciguerra/eclipse-workspace"/>
+		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
+		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="bynart - Interesting"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/Users/marcovinciguerra/Desktop/Untitled.jar"/>
+		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/marcovinciguerra/Desktop/Untitled.jar"/>
+		</list>
+		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value=".xml"/>
+		</list>
+	</section>
 </section>
