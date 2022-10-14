@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="LinkedList"/>
+		<item key="selection" value="x"/>
 		<list key="findhistory">
+			<item value="b"/>
 			<item value="Queue"/>
 			<item value="ArrayList"/>
 			<item value="Code"/>
@@ -17,6 +18,7 @@
 			<item value="Name"/>
 		</list>
 		<list key="replacehistory">
+			<item value="x"/>
 			<item value="LinkedList"/>
 			<item value="Vector"/>
 			<item value="code"/>

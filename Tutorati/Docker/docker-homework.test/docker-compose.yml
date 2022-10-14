@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+    sommatore2:
+        image: openjdk:19
+        container_name: "readFile"
+        volumes:
+            - ./Read.jar:/tmp/Read.jar
+            - ./ToRead.txt:/tmp/ToRead.txt
+        working_dir: /tmp
+        command: ['java', '-jar', 'Read.jar']
