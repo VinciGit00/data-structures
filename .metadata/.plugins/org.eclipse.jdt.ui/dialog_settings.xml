@@ -54,8 +54,8 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="17"/>
-		<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/LeatCode/javadoc.xml"/>
-		<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/LeatCode/removeDuplicatesDoc"/>
+		<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Tutorati/javadoc.xml"/>
+		<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Tutorati/doc"/>
 		<section name="projects">
 			<section name="Interesting">
 				<item key="href" value=""/>
@@ -66,6 +66,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Objects/doc"/>
 				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Objects/javadoc.xml"/>
+			</section>
+			<section name="Tutorati">
+				<item key="href" value=""/>
+				<item key="destdir" value="/Users/marcovinciguerra/eclipse-workspace/Tutorati/doc"/>
+				<item key="antpath" value="/Users/marcovinciguerra/eclipse-workspace/Tutorati/javadoc.xml"/>
 			</section>
 			<section name="LeatCode">
 				<item key="href" value=""/>
@@ -84,11 +89,13 @@
 		<item key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION" value="/Users/marcovinciguerra/eclipse-workspace"/>
 		<item key="FatJarPackageWizardPage.LIBRARY_HANDLING" value="1"/>
 		<item key="FatJarPackageWizardPage.LAUNCH_CONFIGURATION_SELECTION_NAME" value="bynart - Interesting"/>
-		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/Users/marcovinciguerra/Desktop/Untitled.jar"/>
+		<item key="FatJarPackageWizardPage.DESTINATION_PATH_SELECTION" value="/Users/marcovinciguerra/Desktop/Read.jar"/>
 		<list key="FatJarPackageWizardPage.DESTINATION_NAMES_ID">
+			<item value="/Users/marcovinciguerra/Desktop/Read.jar"/>
 			<item value="/Users/marcovinciguerra/Desktop/Untitled.jar"/>
 		</list>
 		<list key="FatJarPackageWizardPage.ANTSCRIPT_LOCATION_HISTORY">
+			<item value="/Users/marcovinciguerra/eclipse-workspace.xml"/>
 			<item value=".xml"/>
 		</list>
 	</section>
