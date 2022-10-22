@@ -18,4 +18,5 @@
     <fullyQualifiedTypeName name="coda.CodaCollegata"/>
     <fullyQualifiedTypeName name="src_albero_binario.AlberoBinarioImpl"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.awt.event.MouseEvent"/>
 </qualifiedTypeNameHistroy>

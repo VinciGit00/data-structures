@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="Foglie"/>
+		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="mouse"/>
 			<item value="foglie"/>
 			<item value="visita"/>
 			<item value="tostring"/>
@@ -22,7 +23,6 @@
 			<item value="isValid1"/>
 			<item value="sommato"/>
 			<item value="b"/>
-			<item value="Queue"/>
 		</list>
 		<list key="replacehistory">
 			<item value="isValid"/>

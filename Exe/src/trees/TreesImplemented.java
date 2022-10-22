@@ -58,6 +58,7 @@ public class TreesImplemented implements TresInterface {
 
 	@Override
 	public int level(NodoAlbero v) {
+		// Permette di dirmi il livello a cui si trova un nodo
 		if (v == null)
 			return -1;
 		return 1 + level(v.padre);
@@ -75,7 +76,6 @@ public class TreesImplemented implements TresInterface {
 		if (v == null)
 			return -1;
 		return 1 + Math.max(altezza(v.sinistro), altezza(v.destro));
-
 	}
 
 	@Override
@@ -90,6 +90,11 @@ public class TreesImplemented implements TresInterface {
 		if (v.sinistro == v.destro && v.sinistro == null)
 			return 1;
 		return contafoglie(v.sinistro) + contafoglie(v.destro);
+	}
+
+	@Override
+	public boolean isleaf(NodoAlbero v) {
+		return v.sinistro == null && v.destro == null;
 	}
 
 	@Override
@@ -134,18 +139,14 @@ public class TreesImplemented implements TresInterface {
 		eliminaFoglieUguali(radice);
 	}
 
-	@Override
-	public boolean isleaf(NodoAlbero v) {
-		return v.sinistro == null && v.destro == null;
-	}
-
 	void eliminaFoglieUguali(NodoAlbero v) {
 
 		if (v.sinistro != null && v.destro != null) {
 
+			// se sono foglie e sono uguali le pongo uguali a null
 			if (isleaf(v.sinistro) && isleaf(v.destro) && v.sinistro.elem == v.destro.elem) {
 				v.sinistro = v.destro = null;
-			} else {
+			} else { // Altrimenti vado avanti con la ricerca
 				eliminaFoglieUguali(v.sinistro);
 				eliminaFoglieUguali(v.destro);
 			}
@@ -158,8 +159,10 @@ public class TreesImplemented implements TresInterface {
 		return search(radice, v);
 	}
 
-	// N.B: non c'è l'ordine nell'albero
+	// N.B: non c'è l'ordine nell'albero (in questo esempio)
 	private boolean search(NodoAlbero v1, NodoAlbero target) {
+		// Se non è null vado avanti con la ricerca e guardo se i due elementi inseriti
+		// corrispondono
 		if (v1 != null) {
 			if (v1.elem == target.elem)
 				return true;
