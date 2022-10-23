@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value=""/>
+		<item key="selection" value="bubble_sort"/>
 		<list key="findhistory">
+			<item value="sortedarray"/>
 			<item value="mouse"/>
 			<item value="foglie"/>
 			<item value="visita"/>
@@ -22,9 +23,9 @@
 			<item value="a,te"/>
 			<item value="isValid1"/>
 			<item value="sommato"/>
-			<item value="b"/>
 		</list>
 		<list key="replacehistory">
+			<item value="bubble_sort"/>
 			<item value="isValid"/>
 			<item value="x"/>
 			<item value="LinkedList"/>
