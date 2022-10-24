@@ -40,4 +40,6 @@ public interface Dizionario {
 	 * @return elemento di chiave k, null se assente
 	 */
 	public Object search(Comparable k);
+
+	public int predecessore(NodoBinario k);
 }

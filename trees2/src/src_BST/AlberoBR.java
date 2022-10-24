@@ -1,8 +1,5 @@
 package src_BST;
 
-import src_albero_binario.AlberoBinario;
-import src_albero_binario.AlberoBinarioImpl;
-
 public class AlberoBR extends AlberoBinarioImpl implements Dizionario {
 
 	/* Metodi accessori */
@@ -11,14 +8,14 @@ public class AlberoBR extends AlberoBinarioImpl implements Dizionario {
 		if (nodo == null)
 			return null;
 		else
-			return ((Record) nodo.elem).key;
+			return (nodo.elem);
 	}
 
 	protected Object data(NodoBinario nodo) {
 		if (nodo == null)
 			return null;
 		else
-			return ((Record) nodo.elem).data;
+			return nodo.elem;
 	}
 
 	/**
@@ -27,9 +24,9 @@ public class AlberoBR extends AlberoBinarioImpl implements Dizionario {
 	 * @param e elemento da inserire
 	 * @param k chiave associata all'elemento
 	 */
-	public void insert(Object e, Comparable k) {
+	public void insert(int e, Comparable k) {
 		// Crea un record e poi un nodo a partire dalla coppia (e,k)
-		NodoBinario z = new NodoBinario(new Record(e, k));
+		NodoBinario z = new NodoBinario(e);
 
 		if (radice == null) { // albero vuoto
 			this.radice = z;
@@ -134,16 +131,58 @@ public class AlberoBR extends AlberoBinarioImpl implements Dizionario {
 
 	}
 
-//TODO
-	public NodoBinario predecessore(NodoBinario u) {
+	@Override
+	public int predecessore(NodoBinario k) {
+		if (ricerca(k, radice) == true) {
+			NodoBinario partenza = resultRicerca(k, radice);
+			if (partenza.sinistro != null)
+				return predecessoreNOsotto(partenza);
+			else
+				predecessoresotto(partenza, partenza);
 
-		return null;
+		}
+		return -1;
+	}
+
+	private int predecessoreNOsotto(NodoBinario k) {
+		if (k.destro == null)
+			return k.elem;
+		return predecessoreNOsotto(k.destro);
+	}
+
+	private int predecessoresotto(NodoBinario k, NodoBinario target) {
+		if (k.elem < target.elem) {
+			return k.elem;
+		}
+		return predecessoresotto(k.padre, target);
+	}
+
+	private boolean ricerca(NodoBinario k, NodoBinario target) {
+
+		if (k.elem == target.elem)
+			return true;
+		else if (k.elem > target.elem) {
+			return ricerca(k.sinistro, target);
+		} else if (k.elem < target.elem) {
+			return ricerca(k.destro, target);
+		}
+		return false;
+	}
+
+	private NodoBinario resultRicerca(NodoBinario k, NodoBinario target) {
+		if (k.elem == target.elem)
+			return k;
+		else if (k.elem > target.elem) {
+			return resultRicerca(k.sinistro, target);
+		} else {
+			return resultRicerca(k.destro, target);
+		}
+	}
+
+	@Override
+	public void insert(Object e, Comparable k) {
+		// TODO Auto-generated method stub
 
 	}
 
-	public NodoBinario successore(NodoBinario u) {
-
-		return null;
-
-	}
 }

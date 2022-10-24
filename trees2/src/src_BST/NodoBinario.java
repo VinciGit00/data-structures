@@ -1,13 +1,12 @@
 package src_BST;
 
-//Nodo di un albero binario
 class NodoBinario {
-	public Object elem;
+	public int elem;
 	public NodoBinario padre;
 	public NodoBinario sinistro;
 	public NodoBinario destro;
 
-	public NodoBinario(Object el) {
+	public NodoBinario(int el) {
 		elem = el;
 		padre = sinistro = destro = null;
 	}
