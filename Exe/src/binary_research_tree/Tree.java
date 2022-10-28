@@ -52,4 +52,59 @@ public class Tree<E extends Comparable<E>> implements NodeInterface {
 		}
 	}
 
+	public Node successore(Node e) {
+		if (e.sx == null)
+			return successoreSinistro(e.sx);
+		else
+			return successoreDestro(e.father, e);
+
+	}
+
+	public Node successoreSinistro(Tree e) {
+		if (e.root.dx == null)
+			return e.root;
+		return successoreSinistro(e.root.dx);
+
+	}
+
+	public Node successoreDestro(Tree e, Node element) {
+		if (((Comparable<E>) e.root.object).compareTo((E) element.object) > 0)
+			return e.root;
+		return successoreDestro(e.root.dx, element);
+	}
+
+	public Node predecessore(Tree e) {
+		if (e.root.dx == null)
+			return predecessoreDestro(e);
+		else
+			return predecessoreSinistro(e.root.dx, e.root);
+	}
+
+	public Node predecessoreSinistro(Tree e, Node element) {
+		if (((Comparable<E>) e.root.object).compareTo((E) element.object) < 0)
+			return e.root;
+		return predecessoreSinistro(e.root.sx, element);
+
+	}
+
+	public Node predecessoreDestro(Tree e) {
+
+		if (e.root.sx == null)
+			return e.root;
+		return predecessoreDestro(e.root.sx);
+	}
+
+	public Node minimo(Tree e) {
+		if (e.root.sx == null)
+			return e.root;
+		return minimo(e.root.sx);
+	}
+
+	public Node massimo(Tree e) {
+		if (e.root.dx == null)
+			return e.root;
+		return minimo(e.root.dx);
+
+	}
+
 }
