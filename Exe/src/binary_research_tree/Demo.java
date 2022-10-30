@@ -6,7 +6,7 @@ public class Demo {
 		Tree<Integer> bintree = new Tree<Integer>();
 
 		bintree.insert(4);
-		bintree.insert(10);
+		bintree.insert(70);
 		bintree.insert(20);
 		bintree.insert(30);
 		bintree.insert(40);
