@@ -6,11 +6,5 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="hindex"/>
-	<classpathentry kind="src" path="2numb"/>
-	<classpathentry kind="src" path="tree_to_list"/>
-	<classpathentry kind="src" path="remove_node"/>
-	<classpathentry kind="src" path="Basic_calculator"/>
-	<classpathentry kind="src" path="SameTree"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

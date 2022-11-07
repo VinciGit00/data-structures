@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
 		<attributes>
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="hindex"/>
-	<classpathentry kind="src" path="2numb"/>
-	<classpathentry kind="src" path="tree_to_list"/>
-	<classpathentry kind="src" path="remove_node"/>
-	<classpathentry kind="src" path="Basic_calculator"/>
-	<classpathentry kind="src" path="SameTree"/>
+	<classpathentry kind="lib" path="/Users/marcovinciguerra/Desktop/jgrapht-1.5.1/lib/jgrapht-core-1.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/marcovinciguerra/Desktop/jgrapht-1.5.1/lib/jheaps-0.13.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
