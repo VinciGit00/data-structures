@@ -12,5 +12,6 @@
 	<classpathentry kind="src" path="remove_node"/>
 	<classpathentry kind="src" path="Basic_calculator"/>
 	<classpathentry kind="src" path="SameTree"/>
+	<classpathentry kind="src" path="RotateArray"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
